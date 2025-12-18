@@ -1,0 +1,8 @@
+{
+  "name": "LEXTRADER-IAG Terminal Quântico",
+  "description": "Uma interface frontend para o sistema de trading LEXTRADER-IAG de Rede Neural Híbrida Quântica, apresentando visualização autônoma de trades, análise de mercado e interação com IA.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

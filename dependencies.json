@@ -1,0 +1,33 @@
+{
+  "name": "lextrader-iag-core",
+  "version": "5.1.0-evolutionary",
+  "description": "Lista de dependências críticas para o funcionamento do Terminal Quântico.",
+  "dependencies": {
+    "core": {
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "typescript": "^5.0.0"
+    },
+    "neural_interface": {
+      "@google/genai": "^1.32.0",
+      "lucide-react": "^0.378.0",
+      "framer-motion": "simulated"
+    },
+    "market_data": {
+      "ccxt": "^4.2.19",
+      "recharts": "^2.12.7"
+    },
+    "visualization": {
+      "three": "^0.160.0",
+      "@react-three/fiber": "^8.16.1",
+      "@react-three/drei": "^9.105.4"
+    }
+  },
+  "modules": [
+    "QuantumCore.ts",
+    "CognitiveServices.ts",
+    "EvolutionaryTrading.ts",
+    "SystemBridge.ts"
+  ],
+  "engine": "V8 / Node.js 18+"
+}
